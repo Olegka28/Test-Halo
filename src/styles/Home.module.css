@@ -1,0 +1,85 @@
+.container {
+  height: 100%;
+  background-color: #e5e5e5;
+  display: flex;
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.containerEmpty {
+  width: 100%;
+  height: 100vh;
+  background-color: #e5e5e5;
+  display: flex;
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.containerCards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.containerBtn {
+  max-width: 235px;
+  min-width: 100px;
+  height: 60px;
+}
+
+.containerModal {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+}
+
+.modalSubtitle {
+  font-size: 16px;
+  text-transform: uppercase;
+  opacity: 0.5;
+  margin: 0;
+}
+
+.modalTitle {
+  margin: 10px 0 0 0;
+  font-size: 40px;
+  line-height: 48px;
+}
+
+.modalSectionPrice {
+  display: flex;
+  margin-top: 24px;
+}
+
+.modalPriceIcon {
+  font-size: 30px;
+  padding-top: 10px;
+  padding-right: 5px;
+  margin: 0;
+}
+
+.modalPriceTypography {
+  font-size: 60px;
+  margin: 0;
+}
+
+.modalForm {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  flex-direction: column;
+}
+
+.modalFormSubmitBtn {
+  width: 100%;
+  height: 56px;
+  text-transform: uppercase;
+  margin-top: 25px;
+}

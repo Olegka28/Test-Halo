@@ -1,0 +1,59 @@
+.container {
+  width: 352px;
+  height: 256px;
+  border-radius: 10px;
+  padding: 40px;
+  margin: 40px;
+  background-color: #ffffff;
+}
+
+.containerBtn {
+  width: 64px;
+  height: 56px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
+  color: #4bcfa0;
+  text-transform: uppercase;
+}
+
+.containerBtn:hover {
+  color: #ffffff;
+  background-color: #4bcfa0;
+  border: none;
+}
+
+.categoryTypography {
+  font-size: 16px;
+  opacity: 0.5;
+  line-height: 24px;
+  text-transform: uppercase;
+}
+
+.titleTypography {
+  margin: 0;
+  font-size: 40px;
+  line-height: 48px;
+}
+
+.priceTypography {
+  font-size: 60px;
+  margin: 0;
+}
+
+.priceIconTypography {
+  font-size: 30px;
+  padding-top: 10px;
+  padding-right: 5px;
+  margin: 0;
+}
+
+.sectionPrice {
+  display: flex;
+}
+
+.sectionAction {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
