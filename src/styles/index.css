@@ -11,6 +11,7 @@ code {
 }
 
 button {
+  font-family: inherit;
   color: #ffffff;
   background-color: #4bcfa0;
   border: none;
@@ -26,6 +27,7 @@ button {
 }
 
 input {
+  font-family: inherit;
   outline: none;
   width: 100%;
   height: 56px;

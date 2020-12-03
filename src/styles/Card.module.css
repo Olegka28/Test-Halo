@@ -1,9 +1,9 @@
 .container {
-  width: 352px;
-  height: 256px;
-  border-radius: 10px;
-  padding: 40px;
-  margin: 40px;
+  min-width: 320px;
+  height: 224px;
+  border-radius: 24px;
+  padding: 32px 0 0 32px;
+  margin: 20px;
   background-color: #ffffff;
 }
 
@@ -13,6 +13,8 @@
   border: 1px solid rgba(0, 0, 0, 0.1);
   background-color: #ffffff;
   color: #4bcfa0;
+  margin-left: 24px;
+  font-weight: 500;
   text-transform: uppercase;
 }
 
@@ -26,13 +28,15 @@
   font-size: 16px;
   opacity: 0.5;
   line-height: 24px;
+  margin: 0;
   text-transform: uppercase;
 }
 
 .titleTypography {
-  margin: 0;
+  margin: 10px 0;
   font-size: 40px;
   line-height: 48px;
+  font-weight: 400;
 }
 
 .priceTypography {
@@ -49,11 +53,11 @@
 
 .sectionPrice {
   display: flex;
+  width: 200px;
 }
 
 .sectionAction {
   margin-top: 40px;
   display: flex;
-  justify-content: space-between;
   align-items: center;
 }

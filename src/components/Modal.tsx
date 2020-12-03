@@ -32,7 +32,7 @@ const Modal = forwardRef<HTMLDivElement, ModalProps>(({children, clearState}, re
                 <div onClick={close} className={classes.modalBackground} />
                 <div className={classes.modalBox} >
                     <div className={classes.modalBtnClose} onClick={close}>
-                        <span>
+                        <span className={classes.modalCross}>
                             X
                         </span>
                     </div>

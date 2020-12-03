@@ -44,3 +44,31 @@
   width: 40px;
   height: 40px;
 }
+
+@media screen and (max-width: 900px) {
+  .modalBox {
+    width: 60%;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .modalBox {
+    width: 90%;
+    height: 100%;
+    border-radius: 0;
+    display: flex;
+    padding: 0 40px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .modalBtnClose {
+    top: 10%;
+    right: 10%;
+    background-color: white;
+  }
+
+  .modalCross {
+    font-size: 40px;
+  }
+}
